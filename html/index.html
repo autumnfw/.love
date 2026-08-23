@@ -1,0 +1,430 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=31536000, must-revalidate">
+      <title>.llove</title>
+  <link rel="stylesheet" href="../css/anotherindex.css">
+<link rel="icon" type="image/x-icon" href="../anotherasset/box.gif">
+<link rel="javascript" href="../java/anotherjava.js">
+<script src="https://kit.fontawesome.com/3728107e2f.js" crossorigin="anonymous"></script>
+<style> 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  animation: derpp 14s infinite linear;
+  margin: 0;
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+@keyframes derpp {
+0% {background-color: hsl(0, 0%, 100%);}
+5% {background-color: hsl(0, 0%, 95%);}
+10% {background-color: hsl(0, 0%, 90%);}
+15% {background-color: hsl(0, 0%, 85%);}
+20% {background-color: hsl(0, 0%, 80%);}
+25% {background-color: hsl(0, 0%, 75%);}
+30% {background-color: hsl(0, 0%, 70%);}
+35% {background-color: hsl(0, 0%, 65%);}
+40% {background-color: hsl(0, 0%, 60%);}
+45% {background-color: hsl(0, 0%, 55%);}
+50% {background-color: hsl(0, 0%, 50%);}
+55% {background-color: hsl(0, 0%, 55%);}
+60% {background-color: hsl(0, 0%, 60%);}
+65% {background-color: hsl(0, 0%, 65%);}
+70% {background-color: hsl(0, 0%, 70%);}
+75% {background-color: hsl(0, 0%, 75%);}
+80% {background-color: hsl(0, 0%, 80%);}
+85% {background-color: hsl(0, 0%, 85%);}
+90% {background-color: hsl(0, 0%, 90%);}
+95% {background-color: hsl(0, 0%, 95%);}
+100% {background-color: hsl(0, 0%, 100%);}
+}
+
+#flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+div img {
+    box-shadow: 0px 0px 20px #fff;
+    border: 5px solid red;
+    border-color: transparent;
+  
+    border-image-outset: 10px;
+    border-image-width: 20px;    
+    border-radius: 5px 5px; 
+    z-index: 1;
+    max-width: 100%;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  z-index: 3;
+}
+
+.column img {
+  vertical-align: middle;
+}
+
+.column1 {
+  flex: 25%;
+  max-width: 25%;
+  z-index: 2;
+}
+
+.column1 img {
+  vertical-align: middle;
+}
+
+.column2 {
+  flex: 25%;
+  max-width: 25%;
+  z-index: 1;
+}
+
+.column2 img {
+  vertical-align: middle;
+}
+
+#button1 {
+position:sticky;
+ left: 48%;
+ top: 1%;
+z-index: 99;
+width: stretch !important;
+  height: 50px;
+  background-color:   #ff0084;
+filter:saturate(110%);
+  border-radius: 50%;
+  font-size: 30px;
+color: white;
+font-family: cursive, 'Times New Roman', Times, serif;
+cursor: pointer;
+text-shadow: 6px 6px 7px #000000;
+text-align: center;
+word-spacing: 3px;
+word-spacing: length;
+outline: transparent !important;
+}
+
+.glass-content {
+  position: fixed;
+  top: 41%;
+  left: 10%; 
+max-width: 30%; 
+max-height: 75%;
+background: #ff008410;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 5px solid rgba(255, 255, 255, 0.05);
+  border-radius: 14px;
+
+  color: white;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  font-size: 20px;
+  font-weight: 450;
+  word-wrap: break-word;
+  
+  text-align: left;
+  padding: "1px";
+  
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   z-index: 30;
+    -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+
+#imfree {
+  font-size: 27px !important;
+}
+
+#coffee {
+  max-width: 100%;
+}
+
+a:link, a:visited {
+  color: rgb(185, 185, 185);
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+a:link:active, a:visited:active {
+  color: rgb(185, 185, 185);
+}
+
+#mybigsection {
+  display: visible;
+  
+}
+
+#myotherbigsection {
+  display: none;
+    z-index: 25;
+  position: absolute;
+  overflow: scroll;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  /* left: 30%; */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+#example::-webkit-scrollbar {
+    display: none;
+}
+
+#myweirddiv {
+top: 43%; 
+ left: 66%;
+z-index: 30;
+position: fixed;
+height: 17%;
+width: 17%;
+}
+
+#cooldiv {
+  z-index: 99;
+  position: absolute;
+  left: 50%;
+  overflow: scroll !important;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-height: 900px){
+.glass-content {
+max-height: 50%;
+overflow: scroll;
+font-size: 16px;
+
+}
+}
+
+@media screen and (max-height: 500px){
+  #myweirddiv {
+    opacity: 0.5;
+  }
+}
+
+
+@media  screen and (max-width: 900px) {
+  .glass-content {
+  top: 66%;
+  display: block;
+  max-width: 43%;
+left: 1%;
+max-height: 43%;
+color:rgb(185, 185, 185);
+
+}
+
+
+#hereiam {
+  max-width: unset;
+  max-height: unset;
+
+}
+#myweirddiv {
+  top: 73% !important;
+display: block;
+
+}
+}
+
+@media screen and (max-width: 750px){
+.glass-content {
+  top: 45%;
+  max-width: 86%;
+  left: 7%;
+  color: white
+
+}
+
+#myweirddiv {
+  width: stretch;
+  left: 0%;
+  top: 79% !important;
+}}
+
+@media screen and (max-width: 700px) {
+
+#coffee {
+max-width: 80%;
+}}
+
+@media screen and (max-width: 655px) {
+.glass-content {
+color:rgb(185, 185, 185);
+}}
+
+
+@media screen and (max-width: 550px) {
+#coffee {
+  max-width: 75%;
+}
+
+a:link, a:visited {
+  color: rgb(170, 165, 165);
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+a:link:active, a:visited:active {
+  color: rgb(170, 165, 165);
+}}
+
+
+
+@media screen and (max-width: 365px) {
+#coffee {
+max-width: 70%;
+}
+.glass-content {
+  top: 37%;
+}}
+@media screen and (max-width: 301px) {
+.glass-content {
+   top: 37%
+   
+}
+#myweirddiv {
+  top: 82% !important;
+}
+#button1 {
+  height: 100px;
+    background-color: #ff008410;
+    backdrop-filter: blur(1px);
+    color: rgb(221, 221, 221);
+    text-shadow: 6px 6px 7px #000000a6;
+}}
+@media screen and (max-width:  250px) {
+.glass-content {
+  top: 30%;
+}
+
+}
+@media screen and (max-width: 201px) {
+.glass-content {
+  top:26%;
+
+}
+
+}
+@media screen and (max-width: 150px) {
+#button1 {
+  height: 150px;
+}}
+
+</style>
+</head>
+<body>
+
+<button id="button1" onclick="myfunction()" value="myvalueisrighthere"> look in the mirror? 
+</button>
+
+
+<section id="mybigsection">
+ 
+  <img src="../anotherasset/weheartit.gif" id="myweirddiv"> 
+
+  <div class="glass-content"> 
+  <!-- <p id="hereiam"> -->
+im Laine. im a face, writer, & visual artist.
+i was born in phoenix arizona in 2005. im 
+ currently in portland oregon pursuing my 
+ undergrad studies. i like to watch & make 
+ videos. i like to overdress & spend time
+ with photos. i like to lay around. we 
+ could work together, also. 
+<br><!-- </p> -->
+ <a style="font-size: 19px;" id="imfree" href="https://www.instagram.com/05.autumn/"> <i class="fa-regular fa-camera"></i></a>
+<a style="font-size: 19px;" id="imfree" href="mailto:littlecatmail11@gmail.com"> <i class="fa-solid fa-envelope"></i></a> 
+
+</div>
+
+
+</section>
+<section id="myotherbigsection"> 
+
+
+</section>
+
+
+<section id="mysection">
+<div id="flexcontainer">
+
+<div class="column">
+<img id="marble1" src="../anotherasset/webp/marble1.webp" loading="lazy" >
+<img id="marble2" src="../anotherasset/webp/marble2.webp" loading="lazy" >
+<img id="marble3" src="../anotherasset/webp/marble3.webp" loading="lazy" >
+<img id="marble4" src="../anotherasset/webp/marble4.webp" loading="lazy" >
+</div>
+
+<div class="column"> 
+<img id="marble5" src="../anotherasset/webp/marble5.webp" loading="lazy" >
+<img id="marble6" src="../anotherasset/webp/marble6.webp" loading="lazy" >
+<img id="marble7" src="../anotherasset/webp/marble7.webp" loading="lazy" >
+<img id="marble8" src="../anotherasset/webp/marble8.webp" loading="lazy" >
+</div>
+
+<div class="column"> 
+<img id="marble9" src="../anotherasset/webp/marble9.webp" loading="lazy" >
+<img id="marble10" src="../anotherasset/webp/marble10.webp" loading="lazy" >
+<img id="marble11" src="../anotherasset/webp/marble11.webp" loading="lazy" >
+<img id="marble12" src="../anotherasset/webp/marble12.webp" loading="lazy" >
+</div>
+
+<div class="column"> 
+<img id="marble13" src="../anotherasset/webp/marble13.webp" loading="lazy" >
+<img id="marble14" src="../anotherasset/webp/marble14.webp" loading="lazy" >
+<img id="marble15" src="../anotherasset/webp/marble15.webp" loading="lazy" >
+<img id="marble16" src="../anotherasset/webp/marble16.webp" loading="lazy" >
+</div>
+
+<div class="column1"> 
+<img id="marble17" src="../anotherasset/webp/marble17.webp" loading="lazy" >
+<img id="marble18" src="../anotherasset/webp/marble18.webp" loading="lazy" >
+<img id="marble19" src="../anotherasset/webp/marble19.webp" loading="lazy" >
+<img id="marble20" src="../anotherasset/webp/marble20.webp" loading="lazy" >
+</div>
+
+<div class="column1"> 
+<img id="marble21" src="../anotherasset/webp/marble21.webp" loading="lazy" >
+<img id="marble22" src="../anotherasset/webp/marble22.webp" loading="lazy" >
+<img id="marble23" src="../anotherasset/webp/marble23.webp" loading="lazy" >
+<img id="marble24" src="../anotherasset/webp/marble24.webp" loading="lazy" >
+</div>
+
+<div class="column1">
+<img id="marble25" src="../anotherasset/webp/marble25.webp" loading="lazy" >
+<img id="marble26" src="../anotherasset/webp/marble26.webp" loading="lazy" >
+<img id="marble27" src="../anotherasset/webp/marble27.webp" loading="lazy" >
+<img id="marble28" src="../anotherasset/webp/marble28.webp" loading="lazy" >
+</div>
+
+<div class="column2">
+<img id="marble29" src="../anotherasset/webp/marble29.webp" loading="lazy" >
+<img id="marble30" src="../anotherasset/webp/marble30.webp" loading="lazy" >
+<img id="marble31" src="../anotherasset/webp/marble31.webp" loading="lazy" >
+<img id="marble32" src="../anotherasset/webp/marble32.webp" loading="lazy" >
+</div>
+
+</div>
+</section>
+
+
+<script src="../java/anotherjava.js" async> </script>
+
+  </body>
+  </html>
