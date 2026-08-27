@@ -19,8 +19,8 @@ let biggestsection = document.getElementById("myotherbigsection");
             img.id = "coffee"
 document.getElementById("myotherbigsection").appendChild(img);}
 
-show_image("../anotherasset/besties/broken.jpg", 500, 400,);
-show_image("../anotherasset/besties/purple.jpg", 500, 400,);
+show_image("./anotherasset/besties/broken.jpg", 500, 400,);
+show_image("./anotherasset/besties/purple.jpg", 500, 400,);
 show_image("./anotherasset/besties/smoke.jpg", 300, 400,);
 show_image("./anotherasset/besties/bed.jpg", 500, 400,);
 show_image("./anotherasset/besties/park.jpg", 500, 400,);
