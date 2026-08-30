@@ -19,16 +19,17 @@ let biggestsection = document.getElementById("myotherbigsection");
             img.id = "coffee"
 document.getElementById("myotherbigsection").appendChild(img);}
 
-show_image("./anotherasset/besties/broken.jpg", 500, 400,);
-show_image("./anotherasset/besties/purple.jpg", 500, 400,);
-show_image("./anotherasset/besties/smoke.jpg", 300, 400,);
-show_image("./anotherasset/besties/bed.jpg", 500, 400,);
-show_image("./anotherasset/besties/park.jpg", 500, 400,);
-show_image("./anotherasset/besties/down.jpg", 500, 400,);
-show_image("./anotherasset/besties/glow.jpg", 300, 400,);
-show_image("./anotherasset/besties/mod.jpg", 300, 400,);
-show_image("./anotherasset/besties/day.jpg", 300, 400,);
-show_image("./anotherasset/besties/befr.jpg", 200, 400,);
+show_image("../anotherasset/besties/wheel.jpg", 500, 400,);
+show_image("../anotherasset/besties/broken.jpg", 500, 400,);
+show_image("../anotherasset/besties/purple.jpg", 500, 400,);
+show_image("../anotherasset/besties/smoke.jpg", 300, 400,);
+show_image("../anotherasset/besties/bed.jpg", 500, 400,);
+show_image("../anotherasset/besties/park.jpg", 500, 400,);
+show_image("../anotherasset/besties/down.jpg", 500, 400,);
+show_image("../anotherasset/besties/glow.jpg", 300, 400,);
+show_image("../anotherasset/besties/mod.jpg", 300, 400,);
+show_image("../anotherasset/besties/day.jpg", 300, 400,);
+show_image("../anotherasset/besties/befr.jpg", 200, 400,);
 
 
  function alertstatus () {
