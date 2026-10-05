@@ -1,0 +1,81 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=31536000, must-revalidate">
+      <title>hehehehehehe</title>
+  <link rel="stylesheet" href="../css/writings.css">
+<link rel="icon" type="image/x-icon" href="../anotherasset/box.gif">
+<!-- <link rel="javascript" href="../java/anotherjava.js"> -->
+<script src="https://kit.fontawesome.com/3728107e2f.js" crossorigin="anonymous"></script>
+<style> 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+}
+
+#intro {
+height: 100%;
+background-color: red;
+color: wheat;
+animation: introanimation 10s linear;
+  z-index: 3;
+  position: relative;
+  
+}
+
+#letter {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  z-index: 5;
+  position: relative;
+  animation: fall 3s linear;  
+}
+#iam {
+  display: none;
+}
+#letter:hover + #iam {
+  filter: blur(5pxh);
+  display: block;
+}
+
+
+
+@keyframes introanimation {
+from {opacity: 0;}
+to {
+  opacity: 1;
+}}
+
+@keyframes fall {
+from {
+rotate: 30deg;
+opacity: 0;
+}
+to {
+rotate: 00deg;
+opacity: 1;
+}
+}
+</style>
+</head>
+<body>
+
+
+
+  <div id="intro">
+
+  </div>
+<img id="letter" src="/anotherasset/write/lostart.jpeg">
+<p id="iam"> hello hi there</p>
+
+
+
+  </body>
+  </html>
